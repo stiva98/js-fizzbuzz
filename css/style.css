@@ -7,8 +7,42 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: cadetblue;
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     max-width: 73.125rem;
     margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 3.125rem;
+    color: whitesmoke;
+}
+.fizzbuzz {
+    background-color: red;
+}
+.fizz {
+    background-color: yellow;
+}
+.buzz {
+    background-color: green;
+}
+.numbero {
+    background-color: lightcoral;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+li {
+    height: 6.25rem;
+    width: 6.25rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .3125rem;
 }
