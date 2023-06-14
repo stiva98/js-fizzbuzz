@@ -5,9 +5,13 @@ for (let numBer = 1; numBer <= 100; numBer++) {
     if (numBer %3 ==0 && numBer %5 ==0){
         //console.log('FizzBuzz')
         const li=document.createElement('li');
-        li.innerHTML='FizzBuzz';
+        const a=document.createElement('a')
+        a.href='https://www.youtube.com/watch?v=cZnLYel9stA'
+        a.target='_blank'
+        a.innerHTML='FizzBuzz';
         li.classList.add('fizzbuzz');
         ul.append(li);
+        li.append(a);
     }
     else if (numBer %5 ==0){
         //console.log('Buzz')

@@ -46,3 +46,8 @@ li {
     align-items: center;
     margin: .3125rem;
 }
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
