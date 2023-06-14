@@ -7,3 +7,8 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 73.125rem;
+    margin: 0 auto;
+}
